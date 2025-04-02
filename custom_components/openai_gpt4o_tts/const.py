@@ -9,30 +9,30 @@ CONF_VOICE = "voice"
 CONF_INSTRUCTIONS = "instructions"
 
 # Default voice setting
-DEFAULT_VOICE = "sage"
+DEFAULT_VOICE = "nova"
 
 # Default multi-field instruction settings
 DEFAULT_AFFECT = (
-    "A cheerful guide who delivers speech in a lively and engaging manner, "
-    "keeping the listener's attention while providing clear guidance."
+    "Wesoły przewodnik, który wygłasza przemówienie w żywy i angażujący sposób,"
+    "utrzymując uwagę słuchacza, jednocześnie zapewniając jasne wskazówki."
 )
 DEFAULT_TONE = (
-    "Friendly, clear, and reassuring, creating a calm atmosphere and making the listener "
-    "feel confident and comfortable. Encourages attentiveness without being overly formal."
+    "Przyjazny, jasny i uspokajający, tworzący spokojną atmosferę i sprawiający, że słuchacz "
+    "czuje się pewnie i komfortowo. Zachęca do uwagi bez nadmiernej formalności."
 )
 DEFAULT_PRONUNCIATION = (
-    "Clear, articulate, and steady, ensuring each instruction is easily understood "
-    "while maintaining a natural, conversational flow. Uses proper enunciation "
-    "to minimize misunderstandings."
+    "Jasna, wyraźna i stabilna, zapewniająca łatwe zrozumienie każdej instrukcji "
+    "przy jednoczesnym zachowaniu naturalnego, konwersacyjnego przepływu. Używa właściwej wymowy "
+    "aby zminimalizować nieporozumienia."
 )
 DEFAULT_PAUSE = (
-    "Brief, purposeful pauses after key instructions (e.g., 'cross the street' and 'turn right') "
-    "to allow time for the listener to process the information and follow along. "
-    "Ensures clarity without unnecessary delays."
+    "Krótkie, celowe pauzy po kluczowych wskazówkach (np. 'przejdź przez ulicę' lub 'skręć w prawo'), "
+    "aby dać słuchaczowi czas na przetworzenie informacji i podążanie za nimi. "
+    "Zapewnia jasność bez niepotrzebnych opóźnień."
 )
 DEFAULT_EMOTION = (
-    "Warm and supportive, conveying empathy and care, ensuring the listener feels guided "
-    "and safe throughout the journey. Uses subtle emotional cues to enhance engagement."
+    "Ciepły i wspierający, przekazujący empatię i troskę, zapewniający, że słuchacz czuje się prowadzony "
+    "i bezpieczny podczas całej podróży. Używa subtelnych wskazówek emocjonalnych, aby zwiększyć zaangażowanie."
 )
 
 # Official GPT-4o TTS voices
