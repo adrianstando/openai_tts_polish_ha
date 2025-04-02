@@ -42,12 +42,12 @@ class OpenAIGPT4oTTSProvider(TextToSpeechEntity):
     @property
     def default_language(self) -> str:
         """Return the default language code."""
-        return "en"
+        return "pl"
 
     @property
     def supported_languages(self) -> list[str]:
         """Return a list of supported languages (mainly English)."""
-        return ["en"]
+        return ["en", "pl", "de", "fr", "es", "it"]
 
     @property
     def default_options(self) -> dict:
